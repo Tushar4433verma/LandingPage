@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100vw;
+    height:100vh;  
+    font-family: sans-serif;
+     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url("./bg-1.jpg");
+    background-size: cover; 
+    background-position: center;
+
+}
+
+/* navbar starts */
+#home{
+    color: #000000;
+    color: indianred;
+}
+.nav-bar{
+    text-align: center;
+     /* background-color: indianred;  */
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar li{
+
+    display: inline-block;
+    padding:25px;
+    font-size: 1.5em;
+    font-weight: bold;
+   
+}
+
+.nav-bar a:hover{
+    border-bottom: 2px solid indianred;
+}
+
+/* Header text */
+.header-txt{
+    color:#fff;
+    position: absolute;
+    top: 40%;
+    left:43%;
+}
+#span-1{
+    letter-spacing:3px ;
+    color: indianred;
+    font-size: 1.5rem;
+    transition: font-size,1s,ease-in-out;
+}
+#h1{
+    letter-spacing:5px;
+    font-size:3rem ;
+}
+#span-2{
+    letter-spacing: 1px;
+    font-size: 1.5rem ;
+    letter-spacing: 2px;
+}
+#child-span-2{
+    color: indianred;
+    font-weight: bolder;
+    font-size:2.5rem ;
+}
+#span-1:hover{
+
+    font-size: 2rem;
+    color: red;
+}
+ #resume-btn{
+
+    text-decoration: none;
+    font-size:20px ;
+    color: #fff;
+    background-color: indianred;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: background-color ,1s,ease-in-out;
+}
+#resume-btn:hover{
+    background-color:red;
+}
+#resume-btn:active{
+    background-color: transparent;
+}
+
+ @media ( max-width:692px)
+{
+    .nav-bar li{
+        font-size: 15px;
+    }
+} 
+@media ( max-width:536px)
+{
+    .nav-bar li{
+        font-size: 12px;
+    }
+}
+@media(max-width:650px)
+{
+    .header-txt{
+
+        left: 30%;
+    }
+
+}
+
+/* header footer */
+.header-footer{
+
+    position: absolute;
+    top:20%;
+    left:2%;
+}
+
+.header-footer ul li img{
+
+    height: 50px;
+    width: 50px;
+    margin:20px;
+    border: 5px solid indianred;
+    border-radius: 30px;
+    transition: width,1s,ease-in-out,heigth,1s,ease-in-out,border,1s,ease-in-out;
+}
+.header-footer ul li img:hover{
+    width:55px;
+    height: 55px;
+    border: 5px solid red;
+}
+
